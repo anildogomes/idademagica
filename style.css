@@ -1,0 +1,43 @@
+body, html{
+    height:100%;
+    margin:0;
+}
+    
+    .bg{
+    background-image: url("castle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+
+section {       
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 20px rgb(228, 174, 174);
+}
+
+    .btn {
+            /* Botão 3D */
+            font-family: arial;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+        }
+        
+        .btn-green {
+            /* Botão 3D Calcular */
+            background: green;
+            color: #fff;
+            box-shadow: 0 5px 0 #006000;
+        }
+
+ 
+    
+

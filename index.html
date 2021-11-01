@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<!-- Favicon-->
+  <link rel="icon" type="image/ico" href="assets/img/logo.ico"/>
+
+<!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Your Age Potter World</title>  
+
+<!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/img/Harry_Potter_Castle.jpg" />
+ 
+</head>
+<body class="bg">
+    <head>
+        <center>
+        <h1>
+            <font color="#FF0">SUA IDADE NO MUNDO POTTER</font>
+        </h1>
+        </center>
+        
+    </head>
+    <section>
+        <div>
+            <center>
+                <font color="#FF0">Ano de Nascimento</font>
+            </center>
+
+            <p>
+                <center>
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </center>
+            </p>
+            <p>
+            <center>
+                <font color="#FF0000">Sexo</font>                
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas"><font color="#FF0000">Masculino</font></label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem"><font color="#FF0000">Feminino</font>
+                    </label>
+            </center>            
+                
+            </p>
+            <p>
+                <center>
+                    
+                    <div class="verificar">    
+                    <input type="button" value="Verificar" class="btn btn-green" onclick="verificar()">
+                </center>
+            </p>
+        </div>
+        <div id="res">
+            <center>
+            <font color="#FF0000">Preencha os dados acima para vê o resultado!</font>
+            </center>
+        </div>
+    </section>
+          <footer>
+               <center>
+                <p><font color="#FF0000">© Programador Anildo Gomes - 2021</font></p>
+               </center>
+          </footer>
+          <script src="script.js"></script>
+</body>
+</html>
